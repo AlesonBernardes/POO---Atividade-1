@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class SistemaDeLogin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String loginCorreto = "alesom";
-        String senhaCorreta = "alesom";
+        String loginCorreto = "java8";
+        String senhaCorreta = "java8";
 
         int tentativas = 0;
         boolean acessoPermitido = false;

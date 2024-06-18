@@ -14,6 +14,6 @@ public class CalculadoraDeITBI {
         double valorBase = Math.max(valorTransacao, valorVenal);
         double imposto = valorBase * (porcentagemImposto / 100);
 
-        JOptionPane.showMessageDialog(null, String.format("O valor do ITBI a ser pago é: %.2f", imposto));
+        JOptionPane.showMessageDialog(null, String.format("O valor do ITBI a ser pago é: R$ %.2f", imposto));
     }
 }
